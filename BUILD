@@ -8,9 +8,9 @@
     "dependencies": [ "../boost:boost" ],
     "make_target": "",
     "outs": [
-       "build/libs/network/src/libcppnetlib-client-connections.a",
-       "build/libs/network/src/libcppnetlib-server-parsers.a",
-       "build/libs/network/src/libcppnetlib-uri.a"
+       "$GEN_DIR/build/libs/network/src/libcppnetlib-client-connections.a",
+       "$GEN_DIR/build/libs/network/src/libcppnetlib-server-parsers.a",
+       "$GEN_DIR/build/libs/network/src/libcppnetlib-uri.a"
      ]
   } },
   { "cc_library": {
