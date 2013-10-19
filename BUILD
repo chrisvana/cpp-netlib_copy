@@ -11,7 +11,8 @@
        "$GEN_DIR/build/libs/network/src/libcppnetlib-client-connections.a",
        "$GEN_DIR/build/libs/network/src/libcppnetlib-server-parsers.a",
        "$GEN_DIR/build/libs/network/src/libcppnetlib-uri.a"
-     ]
+     ],
+    "licenses": [ "http://opensource.org/licenses/BSL-1.0" ]
   } },
   { "cc_library": {
      "name": "net",
@@ -21,6 +22,7 @@
           "$GEN_DIR/build/libs/network/src/libcppnetlib-uri.a"
      ],
      "strict_file_mode": false,
-     "include_dirs": [ "." ]
+     "include_dirs": [ "." ],
+     "dependencies": [ ":cppnet_make" ]
   } }
 ]
